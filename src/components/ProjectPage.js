@@ -13,6 +13,12 @@ export function ProjectPage(props) {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{props.title}</title>
+        <meta name="description" content="Portfolio of Personal &amp; Academic Projects" />
+        <meta name="title" property="og:title" content="Mementos" />
+        <meta property="og:type" content="website" />
+        <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51923136072_6f1bc1812e_k.jpg" />
+        <meta name="description" property="og:description" content="" />
+        <meta name="author" content="Null Reaper" />
       </Helmet>
 
       <div className="viewport">
