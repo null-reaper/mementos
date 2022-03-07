@@ -20,7 +20,7 @@
 
 2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+    Navigate into your new site's directory and start it up.
 
     ```shell
     cd my-gatsby-site/
@@ -52,3 +52,10 @@
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+<main>
+        <h1>Welcome to my Gatsby site!</h1>
+        <Link to="/about">About</Link>
+        <MyPlanet />
+        <p>I'm making this by following the Gatsby Tutorial.</p>
+      </main>

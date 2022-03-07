@@ -14,8 +14,9 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^4.8.0",
+    "gatsby": "^4.8.1",
     "react": "^17.0.1",
+    "react-audio-player": "^0.17.0",
     "react-dom": "^17.0.1"
   }
 }
