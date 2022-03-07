@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import {Helmet} from "react-helmet";
 import { PostCard } from '../components/PostCard'
+import MetaTags from 'react-meta-tags';
 
 import '../styles/app.css'
 import logo from '../images/pos.jpg';
@@ -70,13 +71,15 @@ const ProjectsPage = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Projects</title>
+      </Helmet>
+      <MetaTags>
         <meta name="description" content="Portfolio of Personal &amp; Academic Projects" />
         <meta name="title" property="og:title" content="Mementos" />
         <meta property="og:type" content="website" />
         <meta name="image" property="og:image" content="https://live.staticflickr.com/65535/51923136072_6f1bc1812e_k.jpg" />
         <meta name="description" property="og:description" content="" />
         <meta name="author" content="Null Reaper" />
-      </Helmet>
+      </MetaTags>
 
       <div className="viewport">
 
